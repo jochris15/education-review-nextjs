@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body class="bg-blue-100">
+    <!-- Navbar -->
+    <nav
+        class="sticky top-0 z-10 p-3 bg-white border-2 border-black shadow-[0px_2px_0px_rgba(0,0,0,1)] flex justify-between items-center">
+        <div class="flex justify-center items-center">
+            <button class="text-2xl bg-blue-300 py-1 px-3 font-bold mx-4 border-2 border-black">N</button>
+            <a href="" class="text-xl font-bold px-4 cursor-pointer underline">
+                <span>Home</span>
+            </a>
+            <a href="" class="text-xl font-bold px-4 cursor-pointer">
+                <span>Product</span>
+            </a>
+            <a href="" class="text-xl font-bold px-4 cursor-pointer">
+                <span>Add Product</span>
+            </a>
+        </div>
+    </nav>
+
+    <div class="px-14">
+        <!-- Home -->
+        <div
+            class="h-screen flex flex-col items-center justify-center bg-white border-2 border-black p-5 shadow-[2px_2px_0px_rgba(0,0,0,1)] mt-10">
+            <b class="text-4xl mb-5">NextJS Review</b>
+            <hr class="border-black w-full" />
+            <p class="text-xl mt-5 w-1/2 text-center">
+                NextJS is a React framework for building server-side rendered (SSR), static, and hybrid web
+                applications.
+            </p>
+            <button class="bg-blue-300 border-2 border-black p-2 shadow-[2px_2px_0px_rgba(0,0,0,1)] mt-10">
+                <a href="#PAGE-PRODUCTS" class="font-bold">Go to Products</a>
+            </button>
+        </div>
+
+        <!-- Products -->
+        <div class="mt-8">
+
+            <!-- Main Product -->
+            <div id="PAGE-HOME" class="min-h-screen flex items-center justify-center">
+                <main class="my-8 grid grid-cols-4 gap-5">
+                    <div
+                        class="flex flex-col flex-start items-center bg-white border-2 border-black p-5 shadow-[2px_2px_0px_rgba(0,0,0,1)] h-full">
+                        <picture>
+                            <img src="https://res.cloudinary.com/dpjqm8kkk/image/upload/v1723522884/hacktiv8/branded/cubic-kids-lemari-anak-lemari-terbuka-ponyo-dm-60-52ws98qepd.jpg"
+                                alt="product image"
+                                class="border-2 border-black shadow-[2px_2px_0px_rgba(0,0,0,1)] cursor-pointer bg-blue-300" />
+                        </picture>
+                        <div class="flex flex-col h-full w-full justify-between">
+                            <b class="mt-5">
+                                Cubic KIDS Lemari Anak / Lemari Terbuka / PONYO DM 60
+                            </b>
+                            <hr class="border-black w-full my-2" />
+                            <p>
+                                Deskripsi Produk\n\n**GRATIS ONGKIR JAWA-BALI** \n‣ Harap membaca deskripsi produk
+                                sampai selesai. \n‣ Chat kami terlebih dahulu untuk memastikan daerah Anda masuk....
+                            </p>
+                            <hr class="border-black w-full my-2" />
+                            <button
+                                class="bg-blue-300 border-2 border-black p-2 shadow-[2px_2px_0px_rgba(0,0,0,1)] font-bold w-full mt-2">Delete</button>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+
+        <!-- Detail Product -->
+        <div class="flex flex-start bg-white border-2 border-black p-5 shadow-[2px_2px_0px_rgba(0,0,0,1)] h-full mt-10">
+            <picture>
+                <img src="https://res.cloudinary.com/dpjqm8kkk/image/upload/v1723522884/hacktiv8/branded/cubic-kids-lemari-anak-lemari-terbuka-ponyo-dm-60-52ws98qepd.jpg"
+                    alt="product image"
+                    class="border-2 border-black shadow-[2px_2px_0px_rgba(0,0,0,1)] h-full bg-blue-300" />
+            </picture>
+            <div class="flex mx-10 flex-col w-1/2 justify-between">
+                <b class="text-4xl mb-5">
+                    Cubic KIDS Lemari Anak / Lemari Terbuka / PONYO DM 60
+                </b>
+                <p class="h-full">
+                    Deskripsi Produk\n\n**GRATIS ONGKIR JAWA-BALI** \n‣ Harap membaca deskripsi produk
+                    sampai selesai. \n‣ Chat kami terlebih dahulu untuk memastikan daerah Anda masuk Deskripsi
+                    Produk\n\n**GRATIS ONGKIR JAWA-BALI** \n‣ Harap membaca deskripsi produk
+                    sampai selesai. \n‣ Chat kami terlebih dahulu untuk memastikan daerah Anda masuk Deskripsi
+                    Produk\n\n**GRATIS ONGKIR JAWA-BALI** \n‣ Harap membaca deskripsi produk
+                    sampai selesai. \n‣ Chat kami terlebih dahulu untuk memastikan daerah Anda masuk Deskripsi
+                    Produk\n\n**GRATIS ONGKIR JAWA-BALI** \n‣ Harap membaca deskripsi produk
+                    sampai selesai. \n‣ Chat kami terlebih dahulu untuk memastikan daerah Anda masuk Deskripsi
+                    Produk\n\n**GRATIS ONGKIR JAWA-BALI** \n‣ Harap membaca deskripsi produk
+                    sampai selesai. \n‣ Chat kami terlebih dahulu untuk memastikan daerah Anda masuk Deskripsi
+                    Produk\n\n**GRATIS ONGKIR JAWA-BALI** \n‣ Harap membaca deskripsi produk
+                    sampai selesai. \n‣ Chat kami terlebih dahulu untuk memastikan daerah Anda masuk
+                </p>
+                <div>
+                    <button
+                        class="bg-blue-300 border-2 border-black p-2 shadow-[2px_2px_0px_rgba(0,0,0,1)] w-40 font-bold">Back</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add Product -->
+        <form class="p-5 mt-5 border-2 border-black  shadow-[2px_2px_0px_rgba(0,0,0,1)] bg-white">
+            <h1 class="text-2xl font-bold text-center mb-4">Add New Product</h1>
+            <div class="grid grid-cols-2 gap-4">
+                <div>
+                    <label class="label">
+                        <span class="font-bold">Title</span>
+                    </label>
+                    <input type="text" placeholder="Enter Name"
+                        class="w-full px-3 py-2 border-2 border-black  shadow-[2px_2px_0px_rgba(0,0,0,1)]"
+                        name="title" />
+                </div>
+                <div>
+                    <label class="label">
+                        <span class="font-bold">Thumbnail (URL)</span>
+                    </label>
+                    <input type="text" placeholder="Enter Image URL"
+                        class="w-full px-3 py-2 border-2 border-black  shadow-[2px_2px_0px_rgba(0,0,0,1)]"
+                        name="thumbnail" />
+                </div>
+            </div>
+            <div class='mt-5'>
+                <label class="label">
+                    <span class="font-bold">Description</span>
+                </label>
+                <textarea placeholder="Enter Description"
+                    class="w-full px-3 py-2 border-2 border-black  shadow-[2px_2px_0px_rgba(0,0,0,1)]"
+                    name="description"></textarea>
+            </div>
+            <div class="mt-5">
+                <button
+                    class="w-full mt-5 justify-center py-2 px-4 border-2 border-black  text-sm font-bold bg-blue-300 hover:bg-blue-400 shadow-[2px_2px_0px_rgba(0,0,0,1)]">
+                    Add New Product
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
