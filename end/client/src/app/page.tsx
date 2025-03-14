@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 export default function Home() {
@@ -11,9 +12,9 @@ export default function Home() {
           and hybrid web applications.
         </p>
         <button className="bg-blue-300 border-2 border-black p-2 shadow-[2px_2px_0px_rgba(0,0,0,1)] mt-10">
-          <a href="#PAGE-PRODUCTS" className="font-bold">
+          <Link href="/products" className="font-bold">
             Go to Products
-          </a>
+          </Link>
         </button>
       </div>
     </>
